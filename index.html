@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egguware</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            min-width: 100vw;
+            background: linear-gradient(135deg, #3a006a 0%, #000 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        .top-banner {
+            width: 100vw;
+            background: rgba(0,0,0,0.6);
+            color: #fff;
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            padding: 32px 0 24px 0;
+            letter-spacing: 1px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+        }
+        .center-btn {
+            background: rgba(0,0,0,0.6);
+            color: #fff;
+            border: none;
+            border-radius: 16px;
+            padding: 28px 80px;
+            font-size: 2rem;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+            transition: background 0.2s, transform 0.2s;
+        }
+        .center-btn:hover {
+            background: rgba(0,0,0,0.8);
+            transform: translateY(-2px) scale(1.04);
+        }
+        .spacer {
+            height: 100px;
+        }
+        .sponsor-message {
+            margin-top: 32px;
+            background: rgba(0,0,0,0.6);
+            color: #fff;
+            padding: 24px 40px;
+            border-radius: 14px;
+            font-size: 1.3rem;
+            font-weight: 500;
+            text-align: center;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+            max-width: 90vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-banner">You Are Invited to Join Optimistic!!</div>
+    <div class="spacer"></div>
+    <button class="center-btn" onclick="window.location.href='https://discord.gg/AyNTneP9DW'">
+        Join Optimistic Today!
+    </button>
+    <div class="sponsor-message">Great Server So glad That they are a sponsor</div>
+</body>
+</html>
